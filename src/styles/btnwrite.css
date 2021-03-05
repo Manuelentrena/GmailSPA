@@ -1,0 +1,46 @@
+.btnwrite {
+  width: 100%;
+  min-height: 48px;
+  margin: 16px 0px;
+}
+
+.btnwrite > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: fit-content;
+  margin-left: 8px;
+}
+
+.btnwrite > div:hover {
+  cursor: pointer;
+}
+
+.btnwrite div div:nth-child(1) {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 11px;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-left: 1px solid rgba(167, 167, 167, 0.6);
+  border-bottom: 1px solid rgba(167, 167, 167, 0.6);
+}
+
+.btnwrite div div:nth-child(2) {
+  height: 48px;
+  width: fit-content;
+  border-bottom: 1px solid rgba(167, 167, 167, 0.6);
+}
+
+.btnwrite div div:nth-child(3) {
+  border: none;
+  height: 48px;
+  padding-right: 11px;
+  width: 50px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  border-right: 1px solid rgba(167, 167, 167, 0.6);
+  border-bottom: 1px solid rgba(167, 167, 167, 0.6);
+}

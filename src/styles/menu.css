@@ -1,0 +1,85 @@
+.menu {
+  min-width: 256px;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item:hover .menu__icon {
+  background-color: #ffd3d0;
+}
+.menu__item:hover .menu__text {
+  background-color: #ffd3d0;
+}
+.menu__item:hover .menu__counter {
+  background-color: #ffd3d0;
+}
+
+.menu__text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding-left: 26px;
+  height: 32px;
+  color: #737373;
+}
+
+.menu__link {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 240px;
+  text-decoration: none;
+}
+
+.menu__icon {
+  padding-left: 26px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #737373;
+}
+
+.menu__counter {
+  margin: 0;
+  height: 32px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: #737373;
+}
+
+.notreadbold {
+  font-weight: bold;
+}
+
+.notreadcolor {
+  color: #252525;
+}
+
+.notreadIcon {
+  fill: #252525;
+}
+
+.notreadcolorInbox {
+  color: #d83025;
+}
+
+.notreadIconInbox {
+  fill: #d83025;
+}
+
+.travel {
+  fill: #d83025;
+}
+
+.work {
+  fill: #2072dd;
+}

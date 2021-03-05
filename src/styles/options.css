@@ -1,0 +1,81 @@
+.options {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 1px #cccccc;
+}
+.options__firstblock {
+  height: 48px;
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.refresh {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+.refresh:hover g {
+  fill: #252525;
+}
+
+.optionsicon {
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.options__secondblock {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.options__counter {
+  color: #252525;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nexticon {
+  margin-bottom: 6px;
+  margin-right: 20px;
+}
+
+.backicon {
+  margin-bottom: 6px;
+  margin-right: 30px;
+}
+
+.options__thirdblock {
+  height: 48px;
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.arrowback {
+  margin-left: 20px;
+  margin-right: 25px;
+  margin-top: 6px;
+}
+
+.arrowback:hover {
+  cursor: pointer;
+}
+
+.arrowback:hover path {
+  fill: #252525;
+}
+
+.invisible {
+  display: none;
+}

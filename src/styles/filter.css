@@ -1,0 +1,107 @@
+.filter {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0px 1px 1px #d3d3d3;
+}
+
+.filter--hidden {
+  display: none;
+}
+
+.filter div {
+  display: flex;
+}
+
+.filter__Principal,
+.filter__Social,
+.filter__Promociones,
+.filter__Notificaciones,
+.filter__Foros {
+  display: flex;
+  align-items: center;
+  max-width: 251px;
+  min-width: 130px;
+  width: 100%;
+  fill: #737373;
+  color: #737373;
+  border-bottom: 3px solid #ffffff;
+}
+
+.filter__Principal:hover,
+.filter__Social:hover,
+.filter__Promociones:hover,
+.filter__Notificaciones:hover,
+.filter__Foros:hover {
+  fill: #252525;
+  color: #252525;
+  cursor: pointer;
+  border-bottom: 3px solid #ffffff;
+}
+
+.filter__Principal--active,
+.filter__Principal--active:hover {
+  fill: #d83025;
+  color: #d83025;
+  border-bottom: 3px solid #d83025;
+}
+
+.filter__Social--active,
+.filter__Social--active:hover {
+  fill: #2072dd;
+  color: #2072dd;
+  border-bottom: 3px solid #2072dd;
+}
+
+.filter__Promociones--active,
+.filter__Promociones--active:hover {
+  fill: #198039;
+  color: #198039;
+  border-bottom: 3px solid #198039;
+}
+
+.filter__Notificaciones--active,
+.filter__Notificaciones--active:hover {
+  fill: #e37400;
+  color: #e37400;
+  border-bottom: 3px solid #e37400;
+}
+
+.filter__Foros--active,
+.filter__Foros--active:hover {
+  fill: #a142f4;
+  color: #a142f4;
+  border-bottom: 3px solid #a142f4;
+}
+
+.filter__icon {
+  min-width: 20px;
+  margin: 0 16px;
+}
+
+.filter__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 286px;
+}
+
+.filter__message > div > div {
+  font-size: 16px;
+}
+
+.filter__message p {
+  font-size: 14px;
+}
+
+.filter__message span {
+  color: blue;
+}
+
+.filter__message span:hover {
+  cursor: pointer;
+}
+
+/* message__${typeFilter} */
